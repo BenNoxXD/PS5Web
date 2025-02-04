@@ -9,7 +9,7 @@ sudo rm -r PS5Web
 # download new version
 sudo git clone https://github.com/BenNoxXD/PS5Web
 # create a service for autostart
-cat > /etc/systemd/system/ps5host.service <<- "EOF"
+cat > /etc/systemd/system/ps5web.service <<- "EOF"
 [Unit]
 Description=PS5 Web Browser
 
